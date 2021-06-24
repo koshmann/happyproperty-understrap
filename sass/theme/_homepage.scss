@@ -1,0 +1,38 @@
+.page-template-homepage-template {
+	.hero {
+		position: relative;
+		max-height: 28rem;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.hero-photo {
+			.hero-img-top {
+				object-fit: cover;
+				max-width: 150%;
+			}
+			.overlay {
+				top: 0;
+				left: 0;
+				right: 0;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-color: #000;
+				opacity: 0.5;
+			}
+		}
+		.hero-text {
+			position: absolute;
+			bottom: 5rem;
+			color: #fff;
+			
+			h1.hero-title {
+				max-width: 520px;
+
+			}
+
+		}
+
+	}
+}

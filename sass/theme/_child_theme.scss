@@ -1,0 +1,11 @@
+@import "homepage";
+@import "single-estate";
+
+.estate-listings-row {
+	.col {
+		.card-img-top {
+			object-fit: cover;
+			height: 12rem;
+		}
+	}
+}
